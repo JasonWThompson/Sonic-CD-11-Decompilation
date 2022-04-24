@@ -36,6 +36,7 @@ typedef unsigned int uint;
 // Custom Platforms start here
 #define RETRO_VITA (7)
 #define RETRO_UWP  (8)
+#define RETRO_STEAMDECK (9)
 
 // Platform types (Game manages platform-specific code such as HUD position using this rather than the above)
 #define RETRO_STANDARD (0)
@@ -86,7 +87,7 @@ typedef unsigned int uint;
 #define BASE_PATH ""
 #define RETRO_USING_MOUSE
 #define RETRO_USING_TOUCH
-#define DEFAULT_SCREEN_XSIZE 424
+#define DEFAULT_SCREEN_XSIZE 640
 #define DEFAULT_FULLSCREEN   false
 #endif
 
@@ -239,7 +240,7 @@ enum RetroBytecodeFormat {
 };
 
 // General Defines
-#define SCREEN_YSIZE   (240)
+#define SCREEN_YSIZE   (400)
 #define SCREEN_CENTERY (SCREEN_YSIZE / 2)
 
 #if RETRO_PLATFORM == RETRO_WIN || RETRO_PLATFORM == RETRO_UWP || RETRO_PLATFORM == RETRO_ANDROID
