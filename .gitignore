@@ -285,3 +285,6 @@ android/local.properties
 .flatpak-builder
 flatpak/*.apk
 build-dir
+flatpak/data
+flatpak/module-sources
+flatpak/soniccd
